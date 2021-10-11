@@ -1,0 +1,17 @@
+@startuml
+
+class App {
+    inputFile: Scanner
+    words: String[]
+    wordsList: ArrayList<String>
+    i: int
+    newWord: LinkedHashSet<String>
+    j: String
+    k: int
+
+    {method} main(args: String[]): void
+    {method} arrayGen(inputFile, words, wordsList): void
+    {method} frequencyGen(inputFile, words, wordsList): void
+}
+
+@enduml

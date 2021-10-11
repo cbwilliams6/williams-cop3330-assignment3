@@ -1,0 +1,17 @@
+@startuml
+
+class App {
+    input: Scanner
+    siteName: String
+    author: String
+    javascript: String
+    css: String
+    directory: String
+    index: FileWriter
+
+    {method} main(args: String[]): void
+    {method} websiteGenerator(siteName, author): void
+    {method} folderGenerator(siteName, javascript, css): void
+}
+
+@enduml

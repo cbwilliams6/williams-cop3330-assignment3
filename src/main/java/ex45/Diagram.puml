@@ -1,0 +1,14 @@
+@startuml
+
+class App {
+    input: Scanner
+    inputFile: Scanner
+    outputName: String
+    outputFile: FileWriter
+    inputLine: String
+
+    {method} main(args: String[]): void
+    {method} outputReplace(inputFile, outputFile): void
+}
+
+@enduml

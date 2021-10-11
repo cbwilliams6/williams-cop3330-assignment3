@@ -1,0 +1,21 @@
+@startuml
+
+class App {
+    input: Scanner
+    gson: Gson
+    fileReader: FileReader
+    jsonObject: JsonObject
+    jsonArray: JsonArray
+    nameFound: boolean
+    enteredName: String
+    object: Object
+    product: JsonObject
+    name: String
+    price: Double
+    quantity: Int
+
+    {method} main(args: String[]): void
+    {method} searchProducts(jsonArray, enteredName): boolean
+}
+
+@enduml

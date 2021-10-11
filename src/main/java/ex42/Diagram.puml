@@ -1,0 +1,11 @@
+@startuml
+
+class App {
+    input: Scanner
+    data: String[]
+
+    {method} main(args: String[]): void
+    {method} outputNames(input): void
+}
+
+@enduml

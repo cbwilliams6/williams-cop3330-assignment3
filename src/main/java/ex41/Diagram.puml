@@ -1,0 +1,14 @@
+@startuml
+
+class App {
+    input: Scanner
+    nameList: ArrayList
+    output: FileWriter
+    i: int
+
+    {method} main(args: String[]): void
+    {method} addNames(input, nameList): void
+    {method} outputNames(nameList): void
+}
+
+@enduml
